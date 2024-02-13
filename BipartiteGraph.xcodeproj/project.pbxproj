@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA567E9A2B7B9F5A008C0A39 /* pastLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA567E992B7B9F5A008C0A39 /* pastLinkedList.cpp */; };
 		FA9783E82B7A1EB500B9BDD1 /* Graph1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9783E72B7A1EB500B9BDD1 /* Graph1.cpp */; };
 		FA9783EA2B7A1F0200B9BDD1 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9783E92B7A1F0200B9BDD1 /* Graph.cpp */; };
 		FAA456402B7796A000547500 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA4563F2B7796A000547500 /* main.cpp */; };
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA567E992B7B9F5A008C0A39 /* pastLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pastLinkedList.cpp; sourceTree = "<group>"; };
 		FA6AAA922B79DFD60060B831 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		FA9783E62B7A067C00B9BDD1 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		FA9783E72B7A1EB500B9BDD1 /* Graph1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph1.cpp; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA567E982B7B9D67008C0A39 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA567E992B7B9F5A008C0A39 /* pastLinkedList.cpp */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		FA6AAA912B79DFAC0060B831 /* Header */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		FAA456332B7796A000547500 = {
 			isa = PBXGroup;
 			children = (
+				FA567E982B7B9D67008C0A39 /* Example */,
 				FA6AAA912B79DFAC0060B831 /* Header */,
 				FAA4563E2B7796A000547500 /* BipartiteGraph */,
 				FAA4565B2B78988F00547500 /* Test */,
@@ -189,6 +200,7 @@
 			files = (
 				FA9783E82B7A1EB500B9BDD1 /* Graph1.cpp in Sources */,
 				FA9783EA2B7A1F0200B9BDD1 /* Graph.cpp in Sources */,
+				FA567E9A2B7B9F5A008C0A39 /* pastLinkedList.cpp in Sources */,
 				FAA456402B7796A000547500 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
